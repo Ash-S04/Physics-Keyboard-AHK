@@ -27,7 +27,7 @@
 :o:=>::{U+21D2} ; ⇒ implies
 ;:o:hbar::{U+210F} ; ℏ planck's reduced const.
 :o:hbar::{U+0127} ; ħ planck's reduced const.
-:0:sol::{U+2609} ; ☉ sun
+:o:sol::{U+2609} ; ☉ sun
 
 ;the below will change what the keystrokes below do, + indicates shift is being held and ! is alt
 #HotIf GetKeyState("CapsLock","T") ; whilst cap lock is on below are active
@@ -96,3 +96,4 @@ Down::Send("{U+2193}") ; ↓ down arrow
 Numpadadd::Send("{U+00B1}") ; ± plus or minus
 
 NumpadSub::Send("{U+2213}") ; ∓ minus or plus
+
